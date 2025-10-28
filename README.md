@@ -1,13 +1,12 @@
-
 # iMessage Text Campaign (Mac)
 
 This kit lets you run **personalized text campaigns from your personal phone number** via the Mac Messages app, then **auto‑halt follow‑ups as soon as someone replies**.
 
-## What’s included
+## What's included
 - `send_texts.py` — main orchestrator (reads `contacts.csv`, sends texts, schedules follow‑ups, checks for replies)
 - `send_message.applescript` — sends a single message via Messages.app
 - `contacts.csv` — example sheet with 2 contacts + templated messages
-- `state.json` — created on first run; tracks who’s been messaged, next due follow‑ups, and who replied
+- `state.json` — created on first run; tracks who's been messaged, next due follow‑ups, and who replied
 
 ## One‑time setup (10–15 mins)
 1. **Link iPhone & Mac for SMS**  
